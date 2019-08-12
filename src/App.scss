@@ -21,6 +21,14 @@ $fontSize: 18px;
   background: lighten($color: #212121, $amount: 5); 
 }
 
+a {
+  text-decoration: none;
+  margin: 0 8px;
+  :hover {
+    text-decoration: line-through;
+  }
+}
+
 .App {
   text-align: center;
   font-size: $fontSize;
@@ -37,13 +45,6 @@ $fontSize: 18px;
     font-size: 48px;
     @media screen and (max-width: 700px){
       font-size: (48px / 3) * 2;
-    }
-  }
-  a {
-    text-decoration: none;
-    margin: 0 8px;
-    :hover {
-      text-decoration: line-through;
     }
   }
   .return {

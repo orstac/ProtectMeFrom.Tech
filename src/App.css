@@ -24,6 +24,15 @@
   background: #2e2e2e;
 }
 
+a {
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+a :hover {
+  text-decoration: line-through;
+}
+
 .App {
   text-align: center;
   font-size: 18px;
@@ -51,15 +60,6 @@
   .App h2 {
     font-size: 32px;
   }
-}
-
-.App a {
-  text-decoration: none;
-  margin: 0 8px;
-}
-
-.App a :hover {
-  text-decoration: line-through;
 }
 
 .App .return {

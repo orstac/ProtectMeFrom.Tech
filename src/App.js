@@ -30,6 +30,7 @@ const home = () => {
       <Link to="/protect-me">
         <a>How to Protect Myself</a>
       </Link>
+      <a href="https://www.paypal.me/orstac">Donate</a>
     </div>
   );
 }
