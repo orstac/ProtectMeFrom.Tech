@@ -1,3 +1,29 @@
+::-moz-selection {
+  color: #f5f5f5;
+  background: #212121;
+}
+
+::selection {
+  color: #f5f5f5;
+  background: #212121;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #212121;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #141414;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2e2e2e;
+}
+
 .App {
   text-align: center;
   font-size: 18px;
