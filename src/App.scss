@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  .home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  h2 {
+    font-size: 48px;
+  }
+  a {
+    text-decoration: none;
+    margin: 0 8px;
+    :hover {
+      text-decoration: line-through;
+    }
+  }
+  .return {
+    text-align: left;
+    float: left;
+  }
+  .container {
+    min-width: 80%;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  code {
+    background: darken(#212121, 5);
+    padding: 4px;
+    border-radius: 4px;
+  }
+}
