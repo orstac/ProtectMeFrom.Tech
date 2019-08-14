@@ -97,7 +97,22 @@ const protectMe = () => {
         <a className="return">Return Home</a>
       </Link>
       <br />
-      <p>Coming Soon</p>
+      <br />
+      <p>Protecting yourself online can be simple but we decide not to take the time to. By using some simple tools you can increase your online security.</p>
+      <br />
+      <p>Best VPNs</p>
+      <ul>
+        <li><a href="https://www.privateinternetaccess.com/">PIA</a></li>
+        <li><a href="https://windscribe.com/">WindScribe</a></li>
+      </ul>
+      <br />
+      <p>Chrome Extensions</p>
+      <ul>
+        <li><a href="https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?hl=en">HTTPS Everywhere</a></li>
+        <li><a href="https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?hl=en-US">Ad Blocker</a></li>
+      </ul>
+      <br />
+      <p>More will be added later!</p>
     </div>
   );
 }
