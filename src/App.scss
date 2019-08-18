@@ -1,7 +1,7 @@
 $fontSize: 18px;
 
 ::selection {
-  color: #f5f5f5; 
+  color: #f5f5f5;
   background: #212121;
 }
 
@@ -10,15 +10,15 @@ $fontSize: 18px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #212121; 
+  background: #212121;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: darken($color: #212121, $amount: 5); 
+  background: darken($color: #212121, $amount: 5);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: lighten($color: #212121, $amount: 5); 
+  background: lighten($color: #212121, $amount: 5);
 }
 
 a {
